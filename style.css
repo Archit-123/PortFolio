@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1340px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.head {}
+
+.header {
+    width: 100%;
+    background-color: black;
+    /* border: 2px solid black; */
+    /* border-radius: 0px 0px 62px 62px; */
+    height: 578px;
+    z-index: -1;
+}
+
+.coder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 155px;
+    width: 23px;
+    color: cyan;
+}
+
+.coder h2 {
+    margin: 0px 7px;
+}
+
+.navbar {
+    z-index: 1;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    height: 50px;
+    /* border: 2px solid black; */
+    border-radius: 0px 0px 62px 62px;
+}
+
+.nav-ul {
+    position: fixed;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-contact button {
+    height: 35px;
+    width: 116px;
+    background-color: cyan;
+    position: absolute;
+    right: 184px;
+    top: 7px;
+    border-radius: 3px;
+    border: none;
+}
+
+.nav-contact button:hover {
+    background-color: black;
+    border: 1.5px solid cyan;
+    color: cyan;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+    margin: 23px;
+    font-size: 23px;
+    color: white;
+    z-index: 1;
+}
+
+li a:hover {
+    color: cyan;
+}
+
+.hider1 {
+    background-color: white;
+    height: 100px;
+    width: 800px;
+    position: absolute;
+    top: 460px;
+    transform: rotateZ(353deg) translate(2px, -49px);
+    z-index: 0;
+}
+
+.hider2 {
+    background-color: white;
+    height: 100px;
+    width: 490px;
+    position: absolute;
+    top: 460px;
+    transform: rotateZ(368deg) translate(761px, -171px);
+    z-index: 0;
+}
+
+.hider {
+    position: absolute;
+    top: 118px;
+    width: 100%;
+}
+
+.portf {
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+
+.photo1 img {
+    height: 323px;
+    width: 323px;
+    border-radius: 50%;
+    margin: 0 54px;
+}
+
+.abt span {
+    color: cyan;
+    font-size: 44px;
+}
+
+.abt h3 {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.abt button {
+    border: 1.5px solid cyan;
+    background: transparent;
+    color: cyan;
+    padding: 12px 23px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.abt button:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.about {
+    /* border: 2px solid black; */
+    position: absolute;
+    height: 745px;
+    width: 100%;
+    /* z-index: 12; */
+    top: 656px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1 {
+    margin: 28px 0;
+    /* background-color: blueviolet; */
+    /* border: 2px solid red; */
+}
+
+.about-me {
+    font-size: 37px;
+    border-bottom: 2px solid black;
+}
+
+.about-me span {
+    color: cyan;
+}
+
+.about-content {
+    width: 80%;
+    font-size: 17px;
+}
+
+.about-details {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.photo2 img {
+    height: 334px;
+    width: 334px;
+}
+
+.details-box1 {
+    margin: 13px;
+}
+
+.details-box2 {
+    margin-bottom: 23px;
+}
+
+.box2 {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.details-content {
+    font-size: 17px;
+}
+
+.details-biodata {
+    display: flex;
+    flex-direction: row;
+}
+
+.biodata-left {
+    margin-right: 13px;
+}
+
+.fa {
+    color: cyan;
+}
+
+.details h1 {
+    color: aqua;
+}
+
+.myskills {
+    background-color: #e9e9e9;
+    /* background: linear-gradient(white, cyan); */
+    height: 514px;
+    width: 100%;
+    position: absolute;
+    top: 1401px;
+}
+
+.main-skills {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skilltext {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.skilltext span {
+    color: cyan;
+}
+
+.skilltext h1 {
+    border-bottom: 2px solid black;
+}
+
+.skills {
+    width: 86%;
+    height: 500px;
+    /* background-color: red; */
+    margin-top: 35px;
+}
+
+.pb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 233px;
+    margin-top: 30px;
+}
+
+.box3 {
+    width: 530px;
+    height: 14px;
+    background-color: rgb(255, 255, 255);
+    margin: 23px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.fill {
+    width: 0%;
+    height: 100%;
+    background-color: #6791be;
+    /* position: absolute; */
+    border-radius: 10px;
+}
+
+.f1 {
+    width: 95%;
+}
+
+.f2 {
+    width: 70%;
+}
+
+.f3 {
+    width: 30%;
+}
+
+.f4 {
+    width: 70%;
+}
+
+.f5 {
+    width: 40%;
+}
+
+.f6 {
+    width: 60%;
+}
+
+.all-skill {
+    width: 92%;
+    display: block;
+    margin: auto;
+    /* border-radius: 10px; */
+}
+
+.flex-skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+
+.box4 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* MyPROJECTS  */
+
+.myprojects {
+    /* background-color: lightblue; */
+    /* background: linear-gradient(white, cyan); */
+    background: url('projects/bg2.jpg');
+    height: 1345px;
+    width: 100%;
+    position: absolute;
+    top: 1915px;
+}
+
+.gamedev-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 874px;
+    height: 761px;
+}
+
+.gamedev-vdo video {
+    height: 385px;
+    width: 640px;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.gamedev-img {
+    height: 389px;
+    width: 515px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gamedev-img img {
+    height: 123px;
+    width: 500px;
+}
+
+.box6 {
+    margin: 0 23px;
+}
+
+.heading-project {
+    margin: auto;
+    color: white;
+    width: 100%;
+}
+
+.gamedev-content {
+    color: white;
+}
+
+.gamedev-content p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 23px;
+    font-size: 23px;
+}
+
+.myprojects span {
+    color: cyan;
+}
+
+.heading-project h1 {
+    border-bottom: 1.5px solid cyan;
+}
+
+.gamedev-content a {
+    text-decoration: none;
+    font-style: none;
+    color: cyan;
+    cursor: pointer;
+}
+
+.gamedev-content a:hover {
+    text-decoration: underline;
+}
+
+.gamedev-content h2 {
+    margin-bottom: 20px;
+}
+
+.both {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* webdev  */
+
+.webdev-img {
+    height: 389px;
+    width: 515px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.webdev-img img {
+    height: 189px;
+    width: 340px;
+}
+
+.webdev-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 874px;
+    /* height: 761px; */
+}
+
+.box7 {
+    margin: 23px 23px;
+}
+
+.webdev-content {
+    color: white;
+}
+
+.webdev-content h2 {
+    margin-bottom: 20px;
+}
+
+.webdev-content a:hover {
+    text-decoration: underline;
+}
+
+.webdev-content a {
+    text-decoration: none;
+    font-style: none;
+    color: cyan;
+    cursor: pointer;
+}
+
+.webdev-content p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
