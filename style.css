@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     height: 1340px;
     width: 100vw;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.scroll {
+    scroll-behavior: smooth;
 }
 
 .head {}
@@ -68,6 +74,17 @@ body {
     top: 7px;
     border-radius: 3px;
     border: none;
+    outline: none;
+}
+
+.nav-contact button a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.nav-contact button a:hover {
+    color: cyan;
 }
 
 .nav-contact button:hover {
@@ -84,6 +101,7 @@ li a {
     font-size: 23px;
     color: white;
     z-index: 1;
+    outline: none;
 }
 
 li a:hover {
@@ -153,6 +171,7 @@ li a:hover {
     margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
+    outline: none;
 }
 
 .abt button:hover {
