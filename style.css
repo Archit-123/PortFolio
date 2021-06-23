@@ -5,9 +5,13 @@
     scroll-behavior: smooth;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
-    height: 1340px;
-    width: 100vw;
+    height: 134.0rem;
+    width: 100vh;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -19,11 +23,11 @@ body {
 .head {}
 
 .header {
-    width: 100%;
+    width: 100vw;
     background-color: black;
     /* border: 2px solid black; */
     /* border-radius: 0px 0px 62px 62px; */
-    height: 578px;
+    height: 57.8rem;
     z-index: -1;
 }
 
@@ -32,13 +36,14 @@ body {
     align-items: center;
     justify-content: center;
     position: fixed;
-    left: 155px;
-    width: 23px;
+    left: 15.5rem;
+    width: 2.3rem;
     color: cyan;
+    font-size: 1.5rem;
 }
 
 .coder h2 {
-    margin: 0px 7px;
+    margin: 0rem .7rem;
 }
 
 .navbar {
@@ -50,9 +55,9 @@ body {
     width: 100%;
     background-color: black;
     position: fixed;
-    height: 50px;
+    height: 5rem;
     /* border: 2px solid black; */
-    border-radius: 0px 0px 62px 62px;
+    border-radius: 0rem 0rem 6.2rem 6.2rem;
 }
 
 .nav-ul {
@@ -66,15 +71,16 @@ body {
 }
 
 .nav-contact button {
-    height: 35px;
-    width: 116px;
+    height: 3.5rem;
+    width: 11.6rem;
     background-color: cyan;
     position: absolute;
-    right: 184px;
-    top: 7px;
-    border-radius: 3px;
+    right: 18.4rem;
+    top: .7rem;
+    border-radius: .3rem;
     border: none;
     outline: none;
+    font-size: 1.4rem;
 }
 
 .nav-contact button a {
@@ -89,7 +95,7 @@ body {
 
 .nav-contact button:hover {
     background-color: black;
-    border: 1.5px solid cyan;
+    border: .15rem solid cyan;
     color: cyan;
     cursor: pointer;
 }
@@ -97,8 +103,8 @@ body {
 li a {
     text-decoration: none;
     list-style: none;
-    margin: 23px;
-    font-size: 23px;
+    margin: 2.3rem;
+    font-size: 2.3rem;
     color: white;
     z-index: 1;
     outline: none;
@@ -110,68 +116,69 @@ li a:hover {
 
 .hider1 {
     background-color: white;
-    height: 100px;
-    width: 800px;
+    height: 10rem;
+    width: 80rem;
     position: absolute;
-    top: 460px;
-    transform: rotateZ(353deg) translate(2px, -49px);
+    top: 46rem;
+    transform: rotateZ(353deg) translate(.2rem, -4.9rem);
     z-index: 0;
 }
 
 .hider2 {
     background-color: white;
-    height: 100px;
-    width: 490px;
+    height: 10rem;
+    width: 49rem;
     position: absolute;
-    top: 460px;
-    transform: rotateZ(368deg) translate(761px, -171px);
+    top: 46.0rem;
+    transform: rotateZ(368deg) translate(76.1rem, -17.1rem);
     z-index: 0;
 }
 
 .hider {
     position: absolute;
-    top: 118px;
+    top: 11.8rem;
     width: 100%;
 }
 
 .portf {
     /* background-color: aquamarine; */
     position: absolute;
-    top: 80px;
+    top: 8.0rem;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 300px;
+    height: 30.0rem;
     color: white;
 }
 
 .photo1 img {
-    height: 323px;
-    width: 323px;
+    height: 32.3rem;
+    width: 32.3rem;
     border-radius: 50%;
-    margin: 0 54px;
+    margin: 0 5.4rem;
 }
 
 .abt span {
     color: cyan;
-    font-size: 44px;
+    font-size: 4.4rem;
 }
 
 .abt h3 {
-    font-size: 24px;
-    margin-top: 5px;
+    font-size: 2.4rem;
+    margin-top: .5rem;
 }
 
 .abt button {
-    border: 1.5px solid cyan;
+    border: .15rem solid cyan;
     background: transparent;
     color: cyan;
-    padding: 12px 23px;
-    margin-top: 10px;
+    padding: 1.2rem 2.3rem;
+    margin-top: 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: .5rem;
     outline: none;
+    font-size: 1.5rem;
 }
 
 .abt button:hover {
@@ -179,13 +186,20 @@ li a:hover {
     color: black;
 }
 
+.logo {
+    color: cyan;
+}
+
+
+/* ABOUT STARTS HERE  */
+
 .about {
     /* border: 2px solid black; */
     position: absolute;
-    height: 745px;
+    height: 74.5rem;
     width: 100%;
     /* z-index: 12; */
-    top: 656px;
+    top: 65.6rem;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -193,14 +207,14 @@ li a:hover {
 }
 
 .box1 {
-    margin: 28px 0;
+    margin: 2.8rem 0;
     /* background-color: blueviolet; */
     /* border: 2px solid red; */
 }
 
 .about-me {
-    font-size: 37px;
-    border-bottom: 2px solid black;
+    font-size: 3.7rem;
+    border-bottom: .2rem solid black;
 }
 
 .about-me span {
@@ -209,35 +223,35 @@ li a:hover {
 
 .about-content {
     width: 80%;
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 .about-details {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 80vw;
 }
 
 .photo2 img {
-    height: 334px;
-    width: 334px;
+    height: 33.4rem;
+    width: 33.4rem;
 }
 
 .details-box1 {
-    margin: 13px;
+    margin: 2rem;
 }
 
 .details-box2 {
-    margin-bottom: 23px;
+    margin-bottom: 2.3rem;
 }
 
 .box2 {
-    margin-top: 20px;
-    font-size: 23px;
+    margin-top: 2.0rem;
+    font-size: 2.3rem;
 }
 
 .details-content {
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 .details-biodata {
@@ -246,7 +260,7 @@ li a:hover {
 }
 
 .biodata-left {
-    margin-right: 13px;
+    margin-right: 1.3rem;
 }
 
 .fa {
@@ -255,15 +269,18 @@ li a:hover {
 
 .details h1 {
     color: aqua;
+    font-size: 2.5rem;
 }
+
+
+/* SKILLS STARTS HERE  */
 
 .myskills {
     background-color: #e9e9e9;
-    /* background: linear-gradient(white, cyan); */
-    height: 514px;
+    height: 51.4rem;
     width: 100%;
     position: absolute;
-    top: 1401px;
+    top: 140.1rem;
 }
 
 .main-skills {
@@ -278,8 +295,12 @@ li a:hover {
 .skilltext {
     display: flex;
     justify-content: center;
-    font-size: 24px;
-    margin-top: 25px;
+    font-size: 2.4rem;
+    margin-top: 2.5rem;
+}
+
+.skill-text {
+    font-size: 1.7rem;
 }
 
 .skilltext span {
@@ -287,14 +308,14 @@ li a:hover {
 }
 
 .skilltext h1 {
-    border-bottom: 2px solid black;
+    border-bottom: .2rem solid black;
 }
 
 .skills {
     width: 86%;
-    height: 500px;
+    height: 50.0rem;
     /* background-color: red; */
-    margin-top: 35px;
+    margin-top: 3.5rem;
 }
 
 .pb {
@@ -302,17 +323,17 @@ li a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 233px;
-    margin-top: 30px;
+    height: 23.3rem;
+    margin-top: 3.0rem;
 }
 
 .box3 {
-    width: 530px;
-    height: 14px;
+    width: 53.0rem;
+    height: 1.4rem;
     background-color: rgb(255, 255, 255);
-    margin: 23px;
+    margin: 2.3rem;
     position: relative;
-    border-radius: 10px;
+    border-radius: 1.0rem;
 }
 
 .fill {
@@ -320,7 +341,7 @@ li a:hover {
     height: 100%;
     background-color: #6791be;
     /* position: absolute; */
-    border-radius: 10px;
+    border-radius: 1.0rem;
 }
 
 .f1 {
@@ -364,22 +385,22 @@ li a:hover {
 }
 
 .box4 {
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/* MyPROJECTS  */
+/* MY PROJECTS STARTS HERE */
 
 .myprojects {
     /* background-color: lightblue; */
     /* background: linear-gradient(white, cyan); */
     background: url('projects/bg2.jpg');
-    height: 1345px;
+    height: 134.5rem;
     width: 100%;
     position: absolute;
-    top: 1915px;
+    top: 191.5rem;
 }
 
 .gamedev-pro {
@@ -388,31 +409,31 @@ li a:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 874px;
-    height: 761px;
+    width: 87.4rem;
+    height: 76.1rem;
 }
 
 .gamedev-vdo video {
-    height: 385px;
-    width: 640px;
+    height: 38.5rem;
+    width: 64.0rem;
     /* background-color: lightgoldenrodyellow; */
 }
 
 .gamedev-img {
-    height: 389px;
-    width: 515px;
+    height: 38.9rem;
+    width: 51.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .gamedev-img img {
-    height: 123px;
-    width: 500px;
+    height: 12.3rem;
+    width: 50.0rem;
 }
 
 .box6 {
-    margin: 0 23px;
+    margin: 0 2.3rem;
 }
 
 .heading-project {
@@ -426,7 +447,7 @@ li a:hover {
 }
 
 .gamedev-content p {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -435,8 +456,8 @@ li a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 23px;
-    font-size: 23px;
+    margin-top: 2.3rem;
+    font-size: 2.3rem;
 }
 
 .myprojects span {
@@ -444,7 +465,7 @@ li a:hover {
 }
 
 .heading-project h1 {
-    border-bottom: 1.5px solid cyan;
+    border-bottom: .15rem solid cyan;
 }
 
 .gamedev-content a {
@@ -459,7 +480,8 @@ li a:hover {
 }
 
 .gamedev-content h2 {
-    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
+    font-size: 2.5rem;
 }
 
 .both {
@@ -474,16 +496,16 @@ li a:hover {
 /* webdev  */
 
 .webdev-img {
-    height: 389px;
-    width: 515px;
+    height: 38.9rem;
+    width: 51.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .webdev-img img {
-    height: 189px;
-    width: 340px;
+    height: 18.9rem;
+    width: 34.0rem;
 }
 
 .webdev-pro {
@@ -492,12 +514,12 @@ li a:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 874px;
+    width: 87.4rem;
     /* height: 761px; */
 }
 
 .box7 {
-    margin: 23px 23px;
+    margin: 2.3rem 2.3rem;
 }
 
 .webdev-content {
@@ -505,7 +527,8 @@ li a:hover {
 }
 
 .webdev-content h2 {
-    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
+    font-size: 2.5rem;
 }
 
 .webdev-content a:hover {
@@ -520,7 +543,7 @@ li a:hover {
 }
 
 .webdev-content p {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -530,15 +553,16 @@ li a:hover {
 .contact {
     position: relative;
     min-height: 100vh;
-    padding: 50px 100px;
+    padding: 5.0rem 10.0rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    top: 2677px;
+    top: 267.7rem;
     /* background-color: black; */
     background: linear-gradient(white, cyan);
     color: black;
+    width: 100vw;
 }
 
 .contact::before {
@@ -551,20 +575,19 @@ li a:hover {
 }
 
 .contact .content {
-    max-width: 800px;
+    max-width: 80.0rem;
     text-align: center;
 }
 
 .contact .content h2 {
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 500;
     /* color: #fff; */
     color: black;
 }
 
 .contact .content p {
-    font-weight: 300;
-    /* color: #fff; */
+    font-size: 1.5rem;
     color: black;
 }
 
@@ -573,7 +596,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 3.0rem;
 }
 
 .container-I .contactinfo {
@@ -584,25 +607,25 @@ li a:hover {
 
 .container-I .contactinfo .box {
     position: relative;
-    padding: 20px 0;
+    padding: 2.0rem 0;
     display: flex;
 }
 
 .container-I .contactinfo .box .icon {
-    height: 33px;
-    width: 33px;
+    height: 3.3rem;
+    width: 3.3rem;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .container-I .contactinfo .box .text {
     display: flex;
-    margin-left: 20px;
-    font-size: 16px;
+    margin-left: 2.0rem;
+    font-size: 1.6rem;
     color: #fff;
     flex-direction: column;
     font-weight: 300;
@@ -616,12 +639,12 @@ li a:hover {
 
 .contactform {
     width: 40%;
-    padding: 40px;
+    padding: 4.0rem;
     background: #fff;
 }
 
 .contactform h2 {
-    font-size: 30px;
+    font-size: 3.0rem;
     color: #333;
     font-weight: 500;
 }
@@ -629,17 +652,17 @@ li a:hover {
 .contactform .inputbox {
     position: relative;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 1.0rem;
 }
 
 .contactform .inputbox input,
 .contactform .inputbox textarea {
     width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
+    padding: .5rem 0;
+    font-size: 1.6rem;
+    margin: 1.0rem 0;
     border: none;
-    border-bottom: 2px solid #333;
+    border-bottom: .2rem solid #333;
     outline: none;
     resize: none;
 }
@@ -647,9 +670,9 @@ li a:hover {
 .contactform .inputbox span {
     position: absolute;
     left: 0;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
+    padding: .5rem 0;
+    font-size: 1.6rem;
+    margin: 1.0rem 0;
     pointer-events: none;
     transition: 0.5s;
     color: #666;
@@ -660,18 +683,23 @@ li a:hover {
 .contactform .inputbox textarea:focus~span,
 .contactform .inputbox textarea:valid~span {
     color: #e91e63;
-    font-size: 12px;
-    transform: translateY(-20px);
+    font-size: 1.2rem;
+    transform: translateY(-2.0rem);
 }
 
 .contactform .inputbox input[type="submit"] {
-    width: 100px;
+    width: 10.0px;
     background: #00bcd4;
     color: #fff;
     border: none;
     cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
+    padding: 1.0rem;
+    font-size: 1.8rem;
+    width: 12rem;
+}
+
+.fa-stop-circle::before {
+    color: cyan;
 }
 
 .fa {
@@ -679,4 +707,181 @@ li a:hover {
 }
 
 
-/* CONTACT ENDS  */
+/* HAMBURGER MENU  */
+
+.hamburger {
+    display: none;
+}
+
+.ham-menu {
+    width: 3.5rem;
+    height: 3.0rem;
+    position: fixed;
+    top: 1.2rem;
+    right: 3rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line {
+    width: 100%;
+    height: .3rem;
+    background-color: cyan;
+    transition: all 0.8s;
+}
+
+.change .line-1 {
+    transform: rotateZ(-405deg) translate(-.8rem, .6rem);
+}
+
+.change .line-2 {
+    opacity: 0;
+}
+
+.change .line-3 {
+    transform: rotateZ(405deg) translate(-.8rem, -.6rem);
+}
+
+.navbar-main {
+    width: 30.0rem;
+    height: 100%;
+    background: linear-gradient(white, #007b7b);
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    right: -30.0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20% 0 0 60%;
+    transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+}
+
+.change {
+    right: 0;
+}
+
+.nav-list {
+    text-align: right;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 2.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2.0rem;
+    color: black;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    position: relative;
+    padding: .3rem 0;
+}
+
+.nav-link::before,
+.nav-link::after {
+    content: "";
+    width: 100%;
+    height: .2rem;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+
+/* HAM ENDS HERE  */
+
+@media(max-width:1550px) {
+    html {
+        font-size: 62.5%;
+    }
+    .hider2 {
+        width: 80rem;
+        transform: rotateZ(368deg) translate(76.1rem, -14.96rem);
+    }
+}
+
+@media(max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:877px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media(max-width:722px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media(max-width:562px) {
+    .navbar {
+        display: none;
+    }
+    .hamburger {
+        display: contents;
+    }
+}
+
+@media(max-width:452px) {
+    html {
+        font-size: 30%;
+    }
+    .navbar {
+        display: none;
+    }
+    .hamburger {
+        display: contents;
+    }
+}
+
+@media(max-width:380px) {
+    html {
+        font-size: 25%;
+    }
+    .navbar {
+        display: none;
+    }
+    .hamburger {
+        display: contents;
+    }
+}
+
+@media(max-width:300px) {
+    html {
+        font-size: 20%;
+    }
+    .navbar {
+        display: none;
+    }
+    .hamburger {
+        display: contents;
+    }
+}
