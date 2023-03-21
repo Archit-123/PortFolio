@@ -555,7 +555,8 @@ li a:hover {
   flex-direction: column;
   top: 267.7rem;
   /* background-color: black; */
-  background: linear-gradient(white, cyan);
+  /* background: linear-gradient(white, cyan); */
+  background: linear-gradient(45deg, black, transparent);
   color: black;
   width: 100vw;
 }
@@ -633,6 +634,7 @@ li a:hover {
 }
 
 .contactform {
+  border-radius: 10px;
   width: 40%;
   padding: 4rem;
   background: #fff;
