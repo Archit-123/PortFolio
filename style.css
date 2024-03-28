@@ -191,11 +191,8 @@ li a:hover {
 /* ABOUT STARTS HERE  */
 
 .about {
-  /* border: 2px solid black; */
-  position: absolute;
   height: 74.5rem;
   width: 100vw;
-  top: 65.6rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -273,8 +270,6 @@ li a:hover {
   background-color: #e9e9e9;
   height: 51.4rem;
   width: 100vw;
-  position: absolute;
-  top: 140.1rem;
 }
 
 .main-skills {
@@ -309,6 +304,9 @@ li a:hover {
   width: 90%;
   height: 50rem;
   margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pb {
@@ -316,9 +314,10 @@ li a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 28.3rem;
+  /* height: 28.3rem; */
   margin-top: 3rem;
-  width: 100%;
+  width: 61%;
+  flex-wrap: wrap;
 }
 
 .box3 {
@@ -392,10 +391,9 @@ li a:hover {
 
 .myprojects {
   background: url("projects/bg2.jpg");
-  height: 134.5rem;
+  height: auto;
   width: 100vw;
-  position: absolute;
-  top: 191.5rem;
+  padding: 60px 0;
 }
 
 .gamedev-pro {
@@ -452,7 +450,7 @@ li a:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 2.3rem;
+  margin: 2.3rem 0 6.3rem 0;
   font-size: 2.3rem;
 }
 
@@ -491,11 +489,13 @@ li a:hover {
 /* webdev  */
 
 .webdev-img {
-  height: 38.9rem;
-  width: 51.5rem;
+  /* height: 38.9rem; */
+  /* width: 51.5rem; */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  padding-left: 15px;
+  align-items: center;
 }
 
 .webdev-img img {
@@ -509,7 +509,7 @@ li a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 87.4rem;
+  width: 104.4rem;
   /* height: 761px; */
 }
 
@@ -519,6 +519,7 @@ li a:hover {
 
 .webdev-content {
   color: white;
+  width: 80%;
 }
 
 .webdev-content h2 {
@@ -546,16 +547,11 @@ li a:hover {
 /* CONTACT STARTS  */
 
 .contact {
-  position: relative;
-  min-height: 100vh;
   padding: 5rem 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  top: 267.7rem;
-  /* background-color: black; */
-  /* background: linear-gradient(white, cyan); */
   background: linear-gradient(45deg, black, transparent);
   color: black;
   width: 100vw;
@@ -564,9 +560,7 @@ li a:hover {
 .contact::before {
   /* background: linear-gradient(white, cyan); */
   content: "";
-  height: 100vh;
   width: 100%;
-  position: absolute;
   opacity: 0.6;
 }
 
@@ -804,6 +798,35 @@ li a:hover {
 .nav-link:hover::before,
 .nav-link:hover::after {
   transform: scaleX(1);
+}
+
+.rangso-img{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.skillsets{
+  background-color: #00bcd4;
+  /* width: 100px; */
+  padding: 0 20px;
+  margin: 10px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Videos */
+.vdo{
+  /* height: 38.5rem; */
+  width: 64rem;
+}
+.vdo video{
+  width: 100%;
 }
 
 /* HAM ENDS HERE  */
